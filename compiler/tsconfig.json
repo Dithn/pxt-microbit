@@ -7,11 +7,12 @@
         "declaration": true,
         "moduleResolution": "node",
         "isolatedModules": false,
-        "out": "../built/compiler.js",
+        "outFile": "../built/compiler.js",
         "rootDir": ".",
         "newLine": "LF",
         "sourceMap": false,
         "typeRoots": ["../node_modules/@types"],
+        "types": [],
         "lib": [
             "dom",
             "dom.iterable",
